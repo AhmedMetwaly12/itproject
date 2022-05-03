@@ -1,0 +1,36 @@
+#h1 {
+    background-color: #46b2c3;
+    padding: 5px;
+    text-align: center;
+    color: white;
+  }
+  #h2 {
+      font-size: 20px;
+  }
+  #h3 {
+    font-size: 20px;
+}
+#t1{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:13%;
+    border: solid;
+    border-width: 3px;
+    border-color: #46b2c3;
+    column-gap: 50;
+  }
+  #t2{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:25%;
+    border: solid;
+    border-width: 3px;
+    border-color: #46b2c3;
+    column-gap: 50;
+  }
+.button1{
+    font-size: 20px;
+    border: solid;
+    border-width: 2px;
+    border-color: #46b2c3;
+}

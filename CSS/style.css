@@ -1,0 +1,72 @@
+div, figure, .acc_head, .cat_head{
+    display: inline-block;
+}
+
+.new_arriv{
+    width: 400px;
+    height: 500px;
+}
+
+.categories{
+    width: 130px;
+    height: 125px;
+}
+
+.social{
+    width: 20px;
+    height: 20px;
+}
+
+.out_of_stock{
+    width: 350px;
+    height: 350px;
+    filter: grayscale(75%);
+    color: gray;
+}
+.logo{
+    transform: rotate(180deg);
+    height: 50px;
+    width: 300px;
+}
+
+.item{
+    border: 1px solid #136483;
+    font-family: "Arial";
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.price{
+    color: #46b2c3;
+    font-size: 20px;
+}
+
+.oldPrice{
+    color: gray;
+    font-size: 12px;
+}
+
+button{
+    background-color: #008fbb;
+    padding: 5px;
+}
+
+body{
+    text-align: center;
+}
+
+footer, .account, figure{
+    text-align: left;
+}
+
+.account{
+    border: solid 1px #136483;
+    margin: auto;
+    background: linear-gradient(225deg, #136483, #008FBB, #46B2C3, #F7FAFA);
+    border-radius: 25px;
+}
+
+.acc_link{
+    color: #000000;
+}

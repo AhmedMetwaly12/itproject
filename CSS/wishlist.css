@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    transform: translateY(-90px);
+}
+h1{
+    font-style:initial;
+    padding: 18px;
+    margin: auto;
+    font-size: 40px;
+    transform: translateY(110%);
+}
+.dell img{
+width: 400px;
+height: 500px;
+}
+.len img{ 
+width: auto;
+height: auto;
+transform: translateY(auto);
+}
+.iph img{
+width: 400px;
+height: 500px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+transform: translateY(30%);
+}  
+.dell{
+    border: 1px solid #136483;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    transform: translateY(15%);
+    font-size: larger;
+    display: inline-block;
+}
+    .iph{
+        border: 1px solid #136483;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+        width: auto;
+    transform: translateY(5%);
+    font-size: larger;
+    display: inline-block;
+    right: 100cm;
+    }
+.len{
+    border: 1px solid #136483;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: auto;
+    transform: translateY(-15%);
+    transform: translateX(0%);
+    font-size: larger;
+    display: inline-block;
+}
+.leno{
+    height: 1px;
+    width: 1px;
+size: 2px;
+}  
+button{
+    background-color: #136483;
+    color: #ffffff;
+border: 1px solid #136483;
+padding: 15px;
+border-radius: 5px;
+transition: all 0.5;
+font-size: 25px;
+position: absolute;
+bottom: 0px;
+right: 0px;
+transform: translateY(550%);
+}
+.logo{
+    transform: rotate(180deg); 
+    height: 50px;
+    width: 300px
+}
+/*.tech{
+    text-align: center;
+    color: #136483;
+
+}
+.wish{
+    color: #136483;
+}
+.fourth{border: 1px solid #136483;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    width: 350px;
+    height: 350px;
+   padding: auto;
+    transform: translateX(90px);
+    transform: translateY(55px);
+background-color: rgb(207, 207, 207);
+}
+.empty{
+    text-align: center;
+    font-size: larger;
+    transform: translateY(500%);
+    position: relative;
+} */

@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+.item{
+    text-align: right;
+    border: 1px solid #136483;
+    margin: 10px;
+}
+
+.itemName, .quantity, button{
+    font-size: 20px;
+    margin: 5px;
+}
+
+#checkout{
+    background-color: #008fbb;
+    color: white;
+    padding: 10px;
+}
+
+h2{
+    background-color: #46b2c3;
+    color: white;
+    padding: 10px;
+}
