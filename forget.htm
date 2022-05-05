@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<link rel="stylesheet" href="CSS/forget.css">
+<link rel="stylesheet" href="CSS\forget.css">
 
 <head>
     <meta charset="UTF-8">
@@ -8,35 +8,41 @@
         Reset Password
     </title>
 </head>
-
+<script>
+function text(x){
+if(x==0) {
+document.getElementById("email").style.display= "block" ;
+document.getElementById("text1").style.display= "none"}
+else {
+    document.getElementById("email").style.display= "none";
+    document.getElementById("text1").style.display= "block";
+}
+}
+</script>
 <body>
-    <!-- this is the form action(Submit To Home) -->
-
-    <form action="" method="post">
-        <h1 id="h1">
-            Reset Your Password
+    <form action="index.html" method="post">
+            <h1>Reset Your Password
         </h1>
         <hr><br>
         <h2>How would
-            you like to reset your password? </h2>
+            you like to reset your password? </h2> <strong >(please fill one of the 2 ways before submit)</strong><hr class="hr2">
         <div>
-            <label for="radio1" name="emial link" id="label1" alt="email"><input type="radio" name="radiobutton"
-                    id="radio1"> <img src="Images/SMS.png"emoji" title="email" width="20px" bottom="10px"
+            <label for="radio1"  id="label1" ><input type="radio" name="radiobutton"
+                    id="radio1" onclick="text(0)" > <img src="Images/SMS.png"emoji" title="email" width="20px" bottom="10px"
                     id="email emoji">
                 Email me a link to reset my password <br><br>
-                <input type="email" name="email" id="email" placeholder="enter your email address">
+                <input type="email"  id="email"  placeholder="   Enter your email address" >
             </label>
         </div><br>
         <div>
-            <label for="radio2" id="label2"><input type="radio" name="radiobutton" id="radio2"><img src="Images/phone.png"
+            <label for="radio2" id="label2"><input type="radio" name="radiobutton" onclick="text(1)" id="radio2" ><img src="Images/phone.png"
                     alt="smartphone" title="smartphone" width="20px" id="email emoji">
                 Get a code from my phone
             </label><span>(Dont forget to enter your zip code)</span><br>
-            <br> <input type="text" id="text1" placeholder="enter your phone number" name="phone"><br>
+            <br> <input type="text" id="text1" placeholder="   Enter your phone number"   minlength="13" maxlength="15"><br>
         </div>
         <br>
-        <button><a href="index.html">Submit</a></button>
-
+<input type="submit" value="Submit" id="sub" >
     </form>
 
 
