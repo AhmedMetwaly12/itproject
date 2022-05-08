@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    var firstname = document.getElementById("firstname").value
+    function fun() {
+      alert("welcome,lets go to login")
+      document.location='log in.html'
+    }
+  
+  </script>
     <STYle>         
 body {
   margin: 0;
@@ -32,7 +40,7 @@ body {
     
 }
 
-a:link, a:visited {
+#login {
   background-color: #008FBB;
   color: white;
   padding: 14px 25px;
@@ -42,7 +50,7 @@ a:link, a:visited {
 
 }
 
-a:hover, a:active {
+#login {
   background-color: #46B2C3;
 }
      </style>
@@ -59,7 +67,8 @@ a:hover, a:active {
     <input  id="phonenumber" placeholder="Phone Number"><br>
     <input  id="LandlineNumber" placeholder="Landline Number"><br>
     <input type="email" id="email" placeholder="Email"><br>
-    
-    <a  href="log in.html" >Log In</a>
+    <button id="login" onclick="fun()" > log in  </button>
+   
+
 </body>
 </html>   
