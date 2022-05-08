@@ -2,6 +2,25 @@
 <html>
     <head>
         <link rel="stylesheet" href="CSS/payment.css">
+        <script>
+            var crd = document.getElementById("crd").value
+            var cvc = document.getElementById("cvc")
+            var exp = document.getElementById("exp")
+            var email = document.getElementById("email")
+            var fname = document.getElementById("fname")
+            var lanme = document.getElementById("lname")
+            var add = document.getElementById("add")
+            var pnum = document.getElementById("pnum")
+            var lnum = document.getElementById("lnum")
+            var zip = document.getElementById("zip")
+    
+            function func(){
+                alert("Payment Succesful")}
+    
+    
+    
+    
+            </script>
     </head>
     <body>
         <div id="h1">
@@ -29,29 +48,29 @@
             <div id="t2">
             <table class="center">
             Card Number:
-            <input type="text"; placeholder="Ex: 4111111111111111"><br><br>
+            <input type="text"; id="crd" placeholder="Ex: 4111111111111111"><br><br>
     
             CVC:
-            <input type="text"; maxlength="3" size="4" placeholder="Ex: 123"><br><br>
+            <input type="text"; id="cvc" maxlength="3" size="4" placeholder="Ex: 123"><br><br>
             Expiry date:
-            <input type="text"; maxlength="5" size="5" placeholder="Ex: 04/22"><br><br>
+            <input type="text"; id="exp" maxlength="5" size="5" placeholder="Ex: 04/22"><br><br>
             Email Address:
-            <input type="text"; placeholder="Ex: abcdef@gmail.com"><br><br>
+            <input type="text"; id="email" placeholder="Ex: abcdef@gmail.com"><br><br>
              First name:
-            <input type="text"; placeholder="Ex: Ahmed"><br><br>
+            <input type="text";id="fname" placeholder="Ex: Ahmed"><br><br>
             Last name:
-            <input type="text"; placeholder="Ex: Mohamed"> <br><br>
+            <input type="text";id="lname" placeholder="Ex: Mohamed"> <br><br>
             Address:
-            <input type="text"; placeholder="Ex: Downtown Cairo, Egypt"> <br><br>
+            <input type="text";id="add" placeholder="Ex: Downtown Cairo, Egypt"> <br><br>
             Phone Number:
-            <input type="text"; maxlength="14" placeholder="Ex: +20111111111"> <br><br>
+            <input type="text";id="pnum" maxlength="14" placeholder="Ex: +20111111111"> <br><br>
             Landline Number:
-            <input type="text"; placeholder="Ex: 02-123456"> <br><br>
+            <input type="text"; id="lnum" placeholder="Ex: 02-123456"> <br><br>
             ZIP Code:
-            <input type="text"; maxlength="5" size="5" placeholder="Ex: 11111"> <br><br>
+            <input type="text"; id="zip" maxlength="5" size="5" placeholder="Ex: 11111"> <br><br>
         </table>
     </div>
         </form>
-        <br><button type="button" style="display: inline-block;" class="button1"><a href="index.html">Submit</a></button>
+        <br><button type="button" style="display: inline-block;" class="button1" onclick="func()"><a href="../IT Project/Homepage.html">Submit</a></button>
     </body>
 </html>
