@@ -16,11 +16,14 @@
     <div class="box">
         <div class="form">
         <form class="myform">
-        <input type="text" value="Fullname:"> 
-        <input type="text" value="Type your message:" style="height: 100px;">
+        <input type="text" id="fname" placeholder="Fullname:"> 
+        <input type="text" placeholder="Type your message:" style="height: 100px;">
         
-        <button><a href="index.html">Send</a></button>
-        <script src="script.js"></script>
+        <button onclick="func()"><a href="index.html">Send</a></button>
+        <script>
+            var fname = document.getElementById("fname")
+            function func(){
+                alert("Thanks" +fname)}
         </script>
  
     </div>
